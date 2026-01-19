@@ -1,5 +1,4 @@
 
-
   body {
     margin: 0;
     padding: 4px 0;
@@ -25,4 +24,19 @@
 
 .contact-row a {
   text-align: right;
+}
+
+.circle-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.page-center {
+  display: flex;
+  justify-content: center;  
+  align-items: center;   
+  height: 10vh;            
 }
